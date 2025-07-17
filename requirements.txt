@@ -2,11 +2,13 @@
 pandas>=2.0.0
 numpy>=1.24.0
 
+# API and data fetching
+requests>=2.31.0  # For API calls
+python-dotenv>=1.0.0  # For environment variables
+
 # Testing
 pytest>=7.0.0
 pytest-cov>=4.0.0
 
 # Optional: Add these as you need them
-# requests>=2.31.0  # For API calls
-# websocket-client>=1.6.0  # For real-time data
-# python-dotenv>=1.0.0  # For environment variables 
+# websocket-client>=1.6.0  # For real-time data 
